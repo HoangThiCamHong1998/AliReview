@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Login Shopify</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4a5d25e-4499-4a79-b293-4465de09dc10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>967801f7-abd8-4dba-a7f5-39565441d66d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>967801f7-abd8-4dba-a7f5-39565441d66d</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

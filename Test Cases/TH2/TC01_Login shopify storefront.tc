@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Login shopify storefront</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e79aacbb-a288-409c-bfd8-69efdfc95683</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>088c6c3d-89bd-4779-91dd-17159749cf28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb47bcea-57ca-4edf-a445-d6343dc51bf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efb9896b-ccf4-42de-84f4-d8503fdc4825</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('LoginShopifyStorefrontPage/input_email')</defaultValue>
+      <description></description>
+      <id>088c6c3d-89bd-4779-91dd-17159749cf28</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('LoginShopifyStorefrontPage/input_password')</defaultValue>
+      <description></description>
+      <id>cb47bcea-57ca-4edf-a445-d6343dc51bf3</id>
+      <masked>false</masked>
+      <name>input_password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('LoginShopifyStorefrontPage/btn_login')</defaultValue>
+      <description></description>
+      <id>efb9896b-ccf4-42de-84f4-d8503fdc4825</id>
+      <masked>false</masked>
+      <name>btn_login</name>
+   </variable>
+</TestCaseEntity>
