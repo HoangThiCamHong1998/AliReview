@@ -30,6 +30,30 @@
          <value></value>
          <variableId>967801f7-abd8-4dba-a7f5-39565441d66d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae944752-ba6b-4721-8bed-2f9bd2f6dd69</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d64aa1c0-bd89-41b2-9302-61453c1be041</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>47c681dc-80f0-4f1f-88c7-8e27f8bd5f0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9001f4ec-55e3-4fc9-a0f2-95276b97294d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>28274a37-88d4-489c-bd87-4e005b943f86</guid>
@@ -59,6 +83,30 @@
          <value>store_name</value>
          <variableId>be254344-4714-4c53-b5a1-788e24d97d6f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>19b7dcad-8591-4c1c-9d0e-7149056e8a4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76b5c588-9f41-484e-b78c-7e8a00511a44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5775480a-e610-4c3a-a160-f981e6033d8b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36f02f7e-193d-4867-ae14-fd84b2cfe250</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0a8bdb6d-c287-4f29-9f75-78b3c4a79278</guid>
@@ -66,5 +114,29 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Shopify/TC03_Install AR App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>37bf1e56-8b33-4f5e-ad48-9a27531f9426</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e873310d-e654-40b1-b39a-6ef7bf034b16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96f2dccc-1426-4b3b-bd8f-afd4653391c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cacc7717-196e-4ddd-98f2-e893dad1e5f3</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -19,20 +19,20 @@ import com.sun.corba.se.pept.encoding.InputObject as InputObject
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('https://accounts.shopify.com/login')
+WebUI.openBrowser('https://accounts.shopify.com/login')
 
 //WebUI.maximizeWindow()
 //WebUI.delay(5)
 'Wait for input_email to be visible in 10s'
-WebUI.waitForElementVisible(findTestObject('Object Repository/LoginShopifyScreen/input_email'), 10)
-WebUI.setText(findTestObject('Object Repository/LoginShopifyScreen/input_email'), 'honghtc@firegroup.io')
-
-WebUI.click(findTestObject('Object Repository/LoginShopifyScreen/btn_continue_with_email'))
+WebUI.waitForElementVisible(input_email, 10)
+WebUI.setText(input_email, 'honghtc@firegroup.io')
+WebUI.delay(5)
+WebUI.click(btn_continue_with_email)
 
 //WebUI.delay(5)
-WebUI.waitForElementVisible(findTestObject('Object Repository/LoginShopifyScreen/input_password'), 10)
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginShopifyScreen/input_password'), 'aeHFOx8jV/A=')
+WebUI.waitForElementVisible(input_password, 10)
+WebUI.setEncryptedText(input_password, 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/LoginShopifyScreen/btn_login'))
+WebUI.click(btn_login)
 WebUI.delay(5)
 //WebUI.closeBrowser()

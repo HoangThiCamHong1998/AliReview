@@ -17,19 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://alireviews-fe.onecommerce.io/install')
+WebUI.navigateToUrl('https://alireviews-fe.onecommerce.io/install')
 
-WebUI.maximizeWindow()
+WebUI.setText(input_store_name, 'pink-prod-ali-36')
 
-WebUI.setText(findTestObject('Object Repository/InstallAppPage/input_store_name'), 'pink-prod-ali-11')
+WebUI.click(btn_login)
 
-WebUI.click(findTestObject('Object Repository/InstallAppPage/btn_login'))
+if (WebUI.getUrl().contains('https://accounts.shopify.com/select') == true) {
+    WebUI.click(btn_email_user) //do nothing
+} else {
+}
 
-WebUI.callTestCase(findTestCase('Test Cases/Shopify/TC01_Login Shopify'),null)
+WebUI.click(btn_install)
 
-WebUI.click(findTestObject('Object Repository/InstallAppPage/btn_install'))
-
-WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
-
+//WebUI.callTestCase(findTestCase('Test Cases/Shopify/TC01_Login Shopify'),null)
+WebUI.takeScreenshot('install_app_image.png')

@@ -18,20 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser("https://accounts.shopify.com/lookup")
-
 //WebUI.maximizeWindow()
 //WebUI.callTestCase(findTestCase('Test Cases/Shopify/TC01_Login Shopify'),null)
 
-WebUI.navigateToUrl("https://partners.shopify.com/2811794/stores/new?store_type=client_store")
+def url='https://partners.shopify.com/2811794/stores/new?store_type=client_store'
+WebUI.navigateToUrl(url)
 
-WebUI.click(findTestObject('Object Repository/CreateStorePage/btn_email_user'))
+if (WebUI.getUrl().contains("https://accounts.shopify.com/select")== true) {
+	
+WebUI.click(btn_email_user)
+}
+else {//do nothing}
+//else
+	}
+WebUI.setText(input_store_name, store_name)
 
-WebUI.setText(findTestObject('Object Repository/CreateStorePage/input_store_name'), store_name)
+WebUI.scrollToElement(btn_create_development_store, 3)
 
-WebUI.scrollToElement(findTestObject('Object Repository/CreateStorePage/btn_create_development_store'), 3)
+WebUI.click(btn_create_development_store)
 
-WebUI.click(findTestObject('Object Repository/CreateStorePage/btn_create_development_store'))
-
-//WebUI.takeScreenshot('C:/Users/FireGroup/Katalon Studio/AliReview/Photos')
-
-//WebUI.closeBrowser()
+WebUI.waitForElementPresent(btn_profile_user, 60)
